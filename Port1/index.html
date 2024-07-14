@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="./loader.css">
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+
+</head>
+
+
+<body onload="loaded()">
+    <div class="loader">
+        <div class="c c1"></div>
+        <div class="c c2"></div>
+        <div class="c c3"></div>
+        <div class="c c4"></div>
+        <div class="c c5"></div>
+        <div class="c c6"></div>
+    </div>
+    <script>
+        let loader = document.querySelector(".loader");
+        function loaded() {
+            loader.classList.add("remove");
+            setTimeout(() => {
+                loader.style.display = "none";
+            }, 1000);
+        }
+    </script>
+    <header class="header">
+        <a href="#" class="logo" style="font-family: cursive;">Soumyadeep's Portfolio</a>
+        <nav class="navbar">
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#education" style="--i:4">Education</a>
+            <a href="#project" style="--i:5">Projects</a>
+            <a href="#contact" style="--i:6">Contact</a>
+
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3 style="font-family: cursive;">💫 Hi there! I'm</h3>
+            <h1 style="font-family: cursive;">Soumyadeep Das</h1>
+            <h3 style="font-family: cursive;">& I'm a passionate <span class="text"></span></h3>
+            <a href="./my final resume.pdf"><button>Download CV</button></a>
+
+            <div class="social">
+                <a href="https://www.facebook.com/somu.champ.1/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/soumyadeep-das-2a0419252/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/somuchamp2003/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Somuchamp"><i class='bx bxl-github'></i></a>
+              
+            </div>
+            <div class="home-sci">
+
+            </div>
+        </div>
+
+    </section>
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="./2.png" alt="" style="border-radius: 10000%;">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span>
+            </h2>
+
+            <p>Welcome to my digital haven! I'm a 21-year-old tech enthusiast and engineer, currently on an exhilarating
+                journey to earn my Bachelor's Degree in Computer Science and Engineering.My passion lies in discovering
+                and learning new technologies, and I'm an avid competitive coder. I'm also deeply interested in web
+                development, especially frontend development.</p>
+            <p> When I'm not immersed in code, you'll find me smashing shuttlecocks on the badminton court, exploring
+                new destinations, or savoring a perfectly brewed cup of strong tea. Join me as I dive into the limitless
+                world of technology and push the boundaries of innovation!</p>
+
+        </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+
+        <div class="container1" id="skills">
+
+
+            <h1 style="color:cornflowerblue;margin-left:-10%" class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar"><i style="color:#c95d2e" class="bx bxl-html5"></i>
+                    <div class="info">
+                        <span>HTML-Expert</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#147bbc" class="bx bxl-css3"></i>
+                    <div class="info">
+                        <span>CSS-Intermediate</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:#b0bc1e" class="bx bxl-javascript"></i>
+                    <div class="info">
+                        <span>Javascript-Intermediate</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:red" class='bx bxl-java'></i></i>
+                    <div class="info">
+                        <span>Java-Intermediate</span>
+                    </div>
+                    <div class="progress-line java">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:blueviolet" class='bx bxl-python'></i></i>
+                    <div class="info">
+                        <span>Python-Intermediate</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class='bx bxl-github'></i></i>
+                    <div class="info">
+                        <span>Github-Expert</span>
+                    </div>
+                    <div class="progress-line github">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color:blue" class='bx bxl-flutter'></i>
+                    <div class="info">
+                        <span>Flutter-Beginner</span>
+                    </div>
+                    <div class="progress-line flutter">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container1" style="margin-left:10%;">
+            <h1 style="color:cornflowerblue" class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Creativity</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="80" fill="white"></circle>
+                    </svg>
+                    <div class="percentage">90%</div>
+                    <div class="text">Communication</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="80" fill="white"></circle>
+                    </svg>
+                    <div class="percentage">75%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="80" fill="white"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Teamwork</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 style="margin-top: 20%;" class="sub-title">Education &<span> Experience</span></h1>
+
+    <div class="container" id="education">
+
+        <main class="row">
+
+
+
+            <section class="col">
+
+                <header class="title">
+                    <h2>EDUCATION</h2>
+                </header>
+
+                <div style="margin-top:-60%" class="contents">
+
+                    <div class="box">
+                        <h3>🏫Higher Secondary Education and Secondary Education</h3>
+                        <p>B.K.Mission,School,Midpu,Arunachal Pradesh</p>
+                    </div>
+
+                    <div style="margin-top: 30%;" class="box">
+
+
+                        <h4>2022 - 2026</h4>
+                        <h3>🎓Bachelor of Technology</h3>
+                        <p>UEM Jaipur,Rajasthan</p>
+                    </div>
+
+
+
+                </div>
+            </section>
+
+
+
+            <section class="col">
+
+                <header class="title">
+                    <h2>EXPERIENCE</h2>
+                </header>
+
+                <div style="margin-top:-5%" class="contents">
+
+                    <div style="margin-top: 20%;" class="box">
+                        <h4>2024</h4>
+                        <h3>👨🏻‍💻Events & Outreach Manager</h3>
+                        <p>GDSC UEM Jaipur</p>
+                        <a href="./GDSC offer.png"><button class="offer">Offer letter</button></a>
+                    </div>
+
+                    <div class="box">
+                        <h4>2024</h4>
+                        <h3>👷‍♂️Member</h3>
+                        <p>ACM Student Chapter</p>
+                        <a href="./ACM offer.png"><button class="offer">Offer letter</button></a>
+
+                    </div>          
+
+                    <div class="box">
+                        <h4>2024</h4>
+                        <h3>🌐 Web Development Intern</h3>
+                        <p>Prasunet Company</p>
+                        <a href="./prasunet.pdf"><button class="offer">Offer letter</button></a>
+
+                    </div>
+                    <div class="box">
+                        <h4>2024</h4>
+                        <h3>🌐 Web Development Intern</h3>
+                        <p>Codsoft</p>
+                        <a href="./Codsoft.pdf"><button class="offer">Offer letter</button></a>
+
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+
+        <h1 style="margin-top: 30px;" class="sub-title">My <span> Projects</span></h1>
+
+
+        <section>
+
+            <div class="main-text" id="project">
+
+
+
+                <div class="portfolio-content">
+                    <div class="row row1">
+                        <img src="./pastpaperhub.png">
+                        <div class="layer">
+                            <h5>Web Development</h5>
+                            <p>Past Paper Website</p>
+                            <a href="https://somuchamp.github.io/PH/pastpaper/p1/collage.html">
+                                <p class="Demo">View Demo<p><i class='bx bx-link-external' style='color:#ffffff'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row2">
+                        <img src="./GDSC.png">
+                        <div class="layer">
+                            <h5>Web Development</h5>
+                            <p>GDSC WEBSITE</p>
+                            <a href="https://somuchamp.github.io/GDSC1/GDSCProject/gdsc.html">
+                                <p class="Demo">View Demo<p></p><i class='bx bx-link-external'
+                                        style='color:#ffffff'></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row row3">
+                        <img src="./Fusioncars.png">
+                        <div class="layer">
+                            <h5>Web Development</h5>
+                            <p>CAR DISPLAY WEBSITE</p>
+                            <a href="https://somuchamp.github.io/F1/Fusioncars/desgin/home.html">
+                                <p class="Demo">View Demo<p></p><i class='bx bx-link-external'
+                                        style='color:#ffffff'></i>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+    </div>
+
+    </section>
+
+    <h1 style="margin-top: 30px;" class="sub-title">Contact <span> Me</span></h1>
+    
+    <section class="contact" id="contact">
+        <div class="contact-text">
+
+            <h4>Thank you for visting my website ❤️</h4>
+            <h1>Reach out 💬</h1>
+
+
+             <div class="contact-list" style="margin-top: 50px;">
+               
+                    <h1>Email <i class='bx bxl-gmail' ></i></h1>
+                    <a href="mailto:somuchamp2003@gmail.com"><p style="font-weight: 600;">somuchamp2003@gmail.com</p>
+                    <p style="margin-top: -5%;">Write me  <i class='bx bx-right-arrow-circle'></i>   </p></a>
+                    <h1>Telegram <i class='bx bxl-telegram'></i></h1>
+                    <a href="https://t.me/Somuchamp"><p style="font-weight: 600;">t.me/Somuchamp</p>
+                    <p style="margin-top: -5%;">Write me  <i class='bx bx-right-arrow-circle'></i>   </p></a>
+
+                <li><i class='bx bx-phone-call'></i>6909764006</a></li>
+            </div>
+
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/somu.champ.1/"><i class='bx bxl-facebook-circle'></i></a>
+                <a href="https://www.instagram.com/somuchamp2003/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.linkedin.com/in/soumyadeep-das-2a0419252/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://x.com/Soumyad02320455"><i class='bx bxl-twitter'></i></a>
+                
+                
+
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <h1 class="sub-title">Get <span>in touch 💬</span></h1>
+
+                <input type="" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+
+                <input type="" placeholder="Enter Your Subject">
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+                <input type="submit" value="Submit" class="send">
+
+
+            </form>
+        </div>
+    </section>
+    
+    <div class="last-text">
+        <p>Developed by Soumyadeep Das@2024 </p>
+    </div>
+
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
